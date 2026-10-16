@@ -6,6 +6,7 @@
 // import LoadMore from './components/LoadMore/LoadMore'
 // import Tree from './components/Tree/Tree'
 // import menus from './components/Tree/data'
+import LightDark from './components/LightDark/LightDark'
 import QrCode from './components/QrCode/QrCode'
 
 const App = () => {
@@ -17,7 +18,8 @@ const App = () => {
       {/* <ImageSlider url={'https://picsum.photos/v2/list?'} page={"2"} limit={"10"} /> */}
       {/* <LoadMore /> */}
       {/* <Tree menus={menus}/> */}
-      <QrCode />
+      {/* <QrCode /> */}
+      <LightDark />
     </div>
   )
 }
