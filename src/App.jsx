@@ -6,8 +6,10 @@
 // import LoadMore from './components/LoadMore/LoadMore'
 // import Tree from './components/Tree/Tree'
 // import menus from './components/Tree/data'
-import LightDark from './components/LightDark/LightDark'
-import QrCode from './components/QrCode/QrCode'
+// import LightDark from './components/LightDark/LightDark'
+// import QrCode from './components/QrCode/QrCode'
+
+import Scroll from "./components/Scroll/Scroll"
 
 const App = () => {
   return (
@@ -19,7 +21,8 @@ const App = () => {
       {/* <LoadMore /> */}
       {/* <Tree menus={menus}/> */}
       {/* <QrCode /> */}
-      <LightDark />
+      {/* <LightDark /> */}
+      <Scroll url={'https://dummyjson.com/products'} />
     </div>
   )
 }
