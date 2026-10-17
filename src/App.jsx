@@ -8,8 +8,9 @@
 // import menus from './components/Tree/data'
 // import LightDark from './components/LightDark/LightDark'
 // import QrCode from './components/QrCode/QrCode'
+// import Scroll from "./components/Scroll/Scroll"
 
-import Scroll from "./components/Scroll/Scroll"
+import TabTest from "./components/Tabs/TabTest"
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
       {/* <Tree menus={menus}/> */}
       {/* <QrCode /> */}
       {/* <LightDark /> */}
-      <Scroll url={'https://dummyjson.com/products'} />
+      {/* <Scroll url={'https://dummyjson.com/products'} /> */}
+      <TabTest />
     </div>
   )
 }
