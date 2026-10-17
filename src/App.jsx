@@ -9,8 +9,10 @@
 // import LightDark from './components/LightDark/LightDark'
 // import QrCode from './components/QrCode/QrCode'
 // import Scroll from "./components/Scroll/Scroll"
+// import TabTest from "./components/Tabs/TabTest"
 
-import TabTest from "./components/Tabs/TabTest"
+import ModelTest from "./components/ModalPopup/ModelTest"
+
 
 const App = () => {
   return (
@@ -24,7 +26,8 @@ const App = () => {
       {/* <QrCode /> */}
       {/* <LightDark /> */}
       {/* <Scroll url={'https://dummyjson.com/products'} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+      <ModelTest />
     </div>
   )
 }
