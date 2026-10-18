@@ -10,8 +10,8 @@
 // import QrCode from './components/QrCode/QrCode'
 // import Scroll from "./components/Scroll/Scroll"
 // import TabTest from "./components/Tabs/TabTest"
-
-import ModelTest from "./components/ModalPopup/ModelTest"
+// import GitFinder from "./components/GitFinder/GitFinder"
+// import ModelTest from "./components/ModalPopup/ModelTest"
 
 
 const App = () => {
@@ -27,7 +27,8 @@ const App = () => {
       {/* <LightDark /> */}
       {/* <Scroll url={'https://dummyjson.com/products'} /> */}
       {/* <TabTest /> */}
-      <ModelTest />
+      {/* <ModelTest /> */}
+      {/* <GitFinder /> */}
     </div>
   )
 }
